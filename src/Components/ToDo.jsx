@@ -11,8 +11,8 @@ const ToDo = () => {
 
     return (
         <>
-            <List todo={ tasks } />
             <Form newTask={ task => newTask(task) } />
+            <List todo={ tasks } />
         </>
     )
 }

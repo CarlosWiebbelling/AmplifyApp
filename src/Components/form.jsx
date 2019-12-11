@@ -13,9 +13,9 @@ const Form = ({ newTask }) => {
     
     return (
         <>
-            <h1>{ input }</h1>
             <input onChange={ changeInput } type="text" value={ input } />
             <button type="submit" onClick={ sendNewTask } >Go!</button>
+            <h1>{ input }</h1>
         </>
     )
 }
